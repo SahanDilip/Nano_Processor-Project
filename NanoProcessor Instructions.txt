@@ -1,0 +1,20 @@
+Specific Instruction - In adder subractor unit we use two bit bus for C_in to gain the proper output for C_Out(Overflow) and Zero Flag
+  
+Reset Button - PACKAGE_PIN U18
+
+Led Signals -   Reg7_out[0] = PACKAGE_PIN U16
+		Reg7_out[1] = PACKAGE_PIN E19
+		Reg7_out[2] = PACKAGE_PIN U19
+		Reg7_out[3] = PACKAGE_PIN V19
+		Zero = PACKAGE_PIN P1
+		Overflow = PACKAGE_PIN L1
+		
+Seven Segment Display Mapping - Reg7_Seg[0] = PACKAGE_PIN W7
+				Reg7_Seg[1] = PACKAGE_PIN W6
+				Reg7_Seg[2] = PACKAGE_PIN U8
+				Reg7_Seg[3] = PACKAGE_PIN V8
+				Reg7_Seg[4] = PACKAGE_PIN U5
+				Reg7_Seg[5] = PACKAGE_PIN V5
+				Reg7_Seg[6] = PACKAGE_PIN U7
+
+Expected behaviour of the program - Add numbers from 1 to 3 and store in the Register 7
